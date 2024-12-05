@@ -47,14 +47,14 @@
          </section>
       </div>
       <script>
-     document.getElemenyById("swc").function.onclick(): {
-        document.getElementById("bck").style.display = "block"
-        document.getElementById("swc").style.display = "none"
-     }
-          document.getElemenyById("bck").function.onclick(): {
-        document.getElementById("bck").style.display = "none"
-        document.getElementById("swc").style.display = "block"
-     }
+     document.getElemenyById("swc").onclick = function () {
+        document.getElementById("infp1").style.display = "block";
+        document.getElementById("main").style.display = "none";
+     };
+          document.getElemenyById("bck").onclick = function () {
+        document.getElementById("infp1").style.display = "none";
+        document.getElementById("main").style.display = "block";
+     };
       </script>
   </body>
 </html>
